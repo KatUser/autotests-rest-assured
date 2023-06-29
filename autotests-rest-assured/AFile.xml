@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="REST Assured test examples">
+    <test name="All">
+        <classes>
+            <class name="TestAllAlbumsSchema"/>
+            <class name="TestClass"/>
+            <class name="TestClassSecond"></class>
+            <class name="TestPostRequests"></class>
+        </classes>
+    </test>
+</suite>
